@@ -1,0 +1,30 @@
+.searchMovieContainer {
+    /* background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ebff1e0f-5704-423f-b4c6-94914dabe25b/f881d8bf-03d7-4a45-aafa-62ad1d48029e/IT-it-20220509-popsignuptwoweeks-perspective_alpha_website_medium.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9) !important;;
+    color: white;
+}
+
+.searchMovieContainer #titolo {
+    height:50px;
+    border-radius: 2px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    margin: 0px 2px 20px 0px;
+
+}
+
+.searchMovieContainer #button-search {
+    background-color: #e20712; /* Green */
+    border: none;
+    border: 1px solid #e20712;
+    border-radius: 2px;
+    color: white;
+  /*   padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    height: 50px;
+
+}

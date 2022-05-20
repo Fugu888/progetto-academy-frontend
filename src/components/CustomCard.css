@@ -1,0 +1,16 @@
+.customCardPoster {
+    transition: transform 450ms;
+}
+
+.customCard {
+   border: 0!important;
+}
+
+.customCardPoster:hover {
+    transform: scale(1.08);
+}
+
+/* .roww_posters::-webkit-scrollbar {
+    display: none !important;
+}
+ */

@@ -1,0 +1,11 @@
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.btn-close {
+    background-color: white !important;
+}
+
+.modal-header {
+    border: 0px solid black !important;
+}

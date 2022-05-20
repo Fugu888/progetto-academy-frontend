@@ -1,0 +1,6 @@
+.myNavbarBackground {
+    background: -webkit-linear-gradient( rgba(218,165,32,1), rgba(255,0,0,0)); 
+    background: -o-linear-gradient(  rgba(218,165,32,1),rgba(255,0,0,0)); 
+    background: -moz-linear-gradient(rgba(218,165,32,1),rgba(255,0,0,0)); 
+    background: linear-gradient( rgba(218,165,32,1),rgba(255,0,0,0));
+}
