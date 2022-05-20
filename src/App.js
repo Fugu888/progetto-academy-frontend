@@ -5,7 +5,6 @@ import LoginPage from './pages/LoginPage';
 import LoggedHomePage from './pages/LoggedHomePage';
 import RegistrationPage from './pages/RegistrationPage';
 
-
 function App() {
   return (
     <>
