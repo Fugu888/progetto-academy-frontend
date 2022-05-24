@@ -4,6 +4,7 @@ import SearchMovie from './components/SearchMovie';
 import LoginPage from './pages/LoginPage';
 import LoggedHomePage from './pages/LoggedHomePage';
 import RegistrationPage from './pages/RegistrationPage';
+import Landing from './pages/Landing';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/registration" element={<RegistrationPage/>} />
             <Route path="/find" element={<SearchMovie/>} />
         </Routes> 
+        {/* <Landing/> */}
     </>
   );
 }
