@@ -148,7 +148,7 @@ const MovieRow = () => {
                 </Container> : null }   
 
 
-                    <Container fluid className="overflow-auto">
+                    <Container fluid className="overflow-auto containerStyle">
                         <h2>Top Rated</h2>
                         <Row className="flex-nowrap noYscroll">
                             {topRatedMovies.map((movie,index) => 
@@ -157,7 +157,7 @@ const MovieRow = () => {
                         </Row>
                     </Container>
 
-                    <Container fluid className="overflow-auto">
+                    <Container fluid className="overflow-auto containerStyle">
                         <h2>Azione</h2>
                         <Row className="flex-nowrap noYscroll">
                             {actionMovies.map((movie,index) => 
@@ -166,7 +166,7 @@ const MovieRow = () => {
                         </Row>
                     </Container>        
 
-                    <Container fluid className="overflow-auto">
+                    <Container fluid className="overflow-auto containerStyle">
                         <h2>Horror</h2>
                         <Row className="flex-nowrap noYscroll">
                             {horrorMovies.map((movie,index) => 
@@ -175,7 +175,7 @@ const MovieRow = () => {
                         </Row>
                     </Container>
 
-                    <Container fluid className="overflow-auto">
+                    <Container fluid className="overflow-auto containerStyle">
                         <h2>Commedia</h2>
                         <Row className="flex-nowrap noYscroll">
                             {comedyMovies.map((movie,index) => 
@@ -184,7 +184,7 @@ const MovieRow = () => {
                         </Row>
                     </Container>
 
-                    <Container fluid className="overflow-auto">
+                    <Container fluid className="overflow-auto containerStyle">
                         <h2>Documentari</h2>
                         <Row className="flex-nowrap noYscroll">
                             {docuMovies.map((movie,index) => 

@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    filter: grayscale(30%);
+    filter: grayscale(20%);
     border-bottom: 10px solid #222222;
 }
 
@@ -11,26 +11,12 @@
     background-color: #e10712!important;
 }
 
-.landing-second-section {
+.landing-generic-section {
     color: white;
     background-color: black;
     border-bottom: 10px solid #222222;
 }
 
-.landing-third-section {
-    color: white;
-    background-color: black;
-    border-bottom: 10px solid #222222;
-}
-
-.landing-fourth-section {
-    color: white;
-    background-color: black;
-    border-bottom: 10px solid #222222;
-}
-
-.landing-fifth-section {
-    color: white;
-    background-color: black;
-    border-bottom: 10px solid #222222;
+video {
+    border-radius: 5px;
 }

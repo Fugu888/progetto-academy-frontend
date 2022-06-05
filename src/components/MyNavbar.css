@@ -1,6 +1,14 @@
 .myNavbarBackground {
-    background: -webkit-linear-gradient( rgba(218,165,32,1), rgba(255,0,0,0)); 
-    background: -o-linear-gradient(  rgba(218,165,32,1),rgba(255,0,0,0)); 
-    background: -moz-linear-gradient(rgba(218,165,32,1),rgba(255,0,0,0)); 
-    background: linear-gradient( rgba(218,165,32,1),rgba(255,0,0,0));
+    background: -webkit-linear-gradient(rgba(218, 165, 32, 1), rgba(255, 0, 0, 0));
+    background: -o-linear-gradient(rgba(218, 165, 32, 1), rgba(255, 0, 0, 0));
+    background: -moz-linear-gradient(rgba(218, 165, 32, 1), rgba(255, 0, 0, 0));
+    background: linear-gradient(rgba(218, 165, 32, 1), rgba(255, 0, 0, 0));
+}
+
+.nav-link {
+    color: lightgrey !important;
+} 
+
+.nav-link:hover {
+    color: white !important;
 }

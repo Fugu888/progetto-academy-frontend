@@ -9,9 +9,9 @@ const MyNavbar = () => {
         <>
             <Navbar sticky="top" className="myNavbarBackground" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home"><Link className="styleLink" style={{"textDecoration":"none"}} to="/"><Nav.Link href="#home">Home</Nav.Link></Link></Navbar.Brand>
                     <Nav className="me-auto">
-                        <Link style={{"textDecoration":"none"}} to="/"><Nav.Link href="#home">Home</Nav.Link></Link>
+                        <Link style={{"textDecoration":"none"}} to="/catalog"><Nav.Link href="#home">Catalogo</Nav.Link></Link>
                         <Link style={{"textDecoration":"none"}} to="/login"><Nav.Link href="#features">Login</Nav.Link></Link>
                         <Link style={{"textDecoration":"none"}} to="/find"><Nav.Link href="#features">Cerca</Nav.Link></Link> 
                     </Nav>

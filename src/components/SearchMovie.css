@@ -16,15 +16,13 @@
 }
 
 .searchMovieContainer #button-search {
-    background-color: #e20712; /* Green */
+    background-color: #e20712; 
     border: none;
     border: 1px solid #e20712;
     border-radius: 2px;
     color: white;
-  /*   padding: 15px 32px; */
     text-align: center;
     text-decoration: none;
     font-size: 20px;
     height: 50px;
-
 }

@@ -4,7 +4,6 @@ import MyFooter from "../components/MyFooter";
 import MovieRow from "./MovieRow";
 import './LoggedHomePage.css';
 import { Container } from "react-bootstrap";
-import MyBanner from "../components/MyBanner";
 
 const LoggedHomePage = () => {
     return(
@@ -15,7 +14,6 @@ const LoggedHomePage = () => {
             </Container>
             <MyFooter/>
         </>
-        
     );
     
 }
